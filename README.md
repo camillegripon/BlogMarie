@@ -2,7 +2,7 @@
 
 Ce projet sert à m'exercer à coder un site de type "Blog" tout en donnant à l'artiste Marie Dufaye une visibilité sur internet en dehors d'Instagram.
 
-## Techonoliges utilisées
+## Technologies utilisées
 
 - React
 - Vite
