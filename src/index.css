@@ -86,3 +86,36 @@ a {
   opacity: 1;
   z-index: 11; 
 }
+
+.menuOeuvres {
+  display: none;
+  z-index: 100;
+  position:  absolute;
+  background-color: white;
+  padding: 5px;
+}
+
+.menuOeuvres p {
+  cursor: pointer;
+}
+
+#headerOeuvres {
+  padding-bottom: 10px;
+}
+
+#headerOeuvres:hover .menuOeuvres {
+  display: block;
+  animation: slideDown 0.8s ease forwards; 
+}
+
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px); /* Départ légèrement au-dessus */
+    opacity: 0; /* Invisible */
+  }
+  to {
+    transform: translateY(10px); /* À sa place normale */
+    opacity: 1; /* Visible */
+  }
+}
