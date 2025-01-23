@@ -1,0 +1,84 @@
+
+.swiper-container {
+    height: 650px;
+    max-width: 900px;
+    position: relative; 
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.parallax-bg {
+    background-image: url("/assets/image/fond.png");
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    z-index: 1; 
+}
+
+.parallax-mount {
+    background-image: url("/assets/image/montagne.png");
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    z-index: 5; 
+    pointer-events: none;
+}
+
+
+.parallax-tree {
+    background-image: url("/assets/image/arbre.png");
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    z-index: 10; 
+    pointer-events: none;
+}
+
+
+.swiper {
+height: 100%;
+}
+
+.text-container {
+    position: relative; 
+    z-index: 50; 
+    pointer-events: auto; 
+}
+.text-container > h2,
+.text-container > p {
+    position: relative;
+    z-index: 51; 
+    color: black; 
+    margin: 20px auto; 
+    text-align: center; 
+    max-width: 80%; 
+}
+
+@media (max-width: 425px){
+    .swiper-container{
+        max-width: 100%;
+        height: 600px;
+    }
+    .parallax-bg,
+    .parallax-mount,
+    .parallax-tree {
+background-size: cover;
+    }
+
+}
