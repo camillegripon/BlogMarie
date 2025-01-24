@@ -10,13 +10,6 @@ import '../style/parcours.css';
 
 function Parcours() {
     const isMobile = useMediaQuery({maxWidth: 425});
-   useEffect(() => {
-        const dinoElement = document.querySelector('.parallax-dino');
-        if (dinoElement) {
-            const scaleValue = isMobile ? 'scale(3)' : 'scale(1.15)';
-            dinoElement.style.transform = scaleValue; // Applique manuellement le scale
-        }
-    }, [isMobile]); // Réagit aux changements d'écran
     return (
         <div className="swiper-container">
             <Swiper
