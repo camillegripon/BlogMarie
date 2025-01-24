@@ -44,23 +44,23 @@ function Parcours() {
 
                     <SwiperSlide className="swiperSlide">
                 <div className="text-container">
-                        <h2 data-swiper-parallax-y="-200%">Un chemin artistique et éducatif</h2>
-                        <p data-swiper-parallax-y="-300%">J&apos;ai exploré l&apos;art sous toutes ses formes, en commençant par l&apos;ENNAI à Chambéry, avant de perfectionner mes compétences à l&apos;école LTAM au Luxembourg, où j&apos;ai obtenu un BTS. Aujourd&apos;hui, future professeure des écoles, je conserve une passion intacte pour le dessin, notamment l&apos;illustration jeunesse.</p>
+                        <h2 data-swiper-parallax-y="-200%">De la peinture</h2>
+                        <p data-swiper-parallax-y="-300%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis minima fuga ipsum odio nesciunt voluptates, voluptatibus cum iste saepe veniam dignissimos corporis quaerat sit. Nemo facere ullam tempore inventore dicta.</p>
                 </div>                    
 </SwiperSlide>
                     <SwiperSlide className="swiperSlide">
                 <div className="text-container">
-                        <h2 data-swiper-parallax-y="-50%">Un avenir où art et péagogie se rencontrent</h2>
+                        <h2 data-swiper-parallax-y="-50%">Des dessins</h2>
                         <p data-swiper-parallax-y="-150%">
-                            À travers mes créations, je m&apos;inspire de mon parcours éducatif et artistique pour raconter des histoires uniques. Ma passion pour l&apos;illustration jeunesse et les dinosaures nourrit mon rêve de créer des œuvres qui émerveillent les petits comme les grands.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rerum eius in quod eveniet nobis hic unde dolorum. Accusamus dolorem quas iure officia molestias. Eius autem odit non beatae nulla.
                         </p>
 </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiperSlide">
                     <div className="text-container">
-                        <h2 data-swiper-parallax-y="-50%">Quand le dessin donne vie aux rêves</h2>
+                        <h2 data-swiper-parallax-y="-50%">Et des dinos</h2>
                         <p data-swiper-parallax-y="-150%">
-                            J&apos;imagine des univers colorés et poétiques où l&apos;imaginaire prend vie. Mon ambition : transmettre ma créativité et ma sensibilité artistique, tout en éveillant les esprits à la beauté des histoires visuelles.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore quia perferendis perspiciatis at pariatur magni officia ipsa, ab sint, illum tenetur vel explicabo accusamus voluptatum doloribus deserunt sunt minima? Qui.
                         </p>
     </div>
                     </SwiperSlide>
