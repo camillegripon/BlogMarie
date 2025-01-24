@@ -21,6 +21,20 @@
     z-index: 1; 
 }
 
+.parallax-dino {
+    background-image: url("/assets/image/dino.png");
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    z-index: 2; 
+    pointer-events: none;
+}
+
 .parallax-mount {
     background-image: url("/assets/image/montagne.png");
     background-size: contain; 
@@ -77,8 +91,8 @@ height: 100%;
     }
     .parallax-bg,
     .parallax-mount,
-    .parallax-tree {
-background-size: cover;
+    .parallax-tree,
+    .parallax-dino {
+        background-size: cover;
     }
-
 }

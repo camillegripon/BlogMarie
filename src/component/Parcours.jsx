@@ -1,3 +1,5 @@
+import { useMediaQuery } from "react-responsive";
+import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -5,7 +7,16 @@ import 'swiper/css/navigation';
 import { Parallax, Pagination, Navigation } from 'swiper/modules';
 import '../style/parcours.css';
 
+
 function Parcours() {
+    const isMobile = useMediaQuery({maxWidth: 425});
+   useEffect(() => {
+        const dinoElement = document.querySelector('.parallax-dino');
+        if (dinoElement) {
+            const scaleValue = isMobile ? 'scale(3)' : 'scale(1.15)';
+            dinoElement.style.transform = scaleValue; // Applique manuellement le scale
+        }
+    }, [isMobile]); // Réagit aux changements d'écran
     return (
         <div className="swiper-container">
             <Swiper
@@ -26,18 +37,24 @@ function Parcours() {
                     data-swiper-parallax-y="-10%"
                 ></div>
 
+                {/* Dino */}
+                <div
+                    className="parallax-dino"
+                    data-swiper-parallax-y={isMobile ? "-30%" :"-180"}
+                ></div>
+
                 {/* Montagne */}
                 <div
                     className="parallax-mount"
                     data-swiper-parallax-y="-100"
-                    data-swiper-parallax-scale="1.1"
+                    data-swiper-parallax-scale="1.2"
                 ></div>
 
                 {/* Arbre */}
                 <div
                     className="parallax-tree"
-                    data-swiper-parallax-y="-150"
-                    data-swiper-parallax-scale="1.15"
+                    data-swiper-parallax-y="-50"
+                    data-swiper-parallax-scale="1.3"
                 ></div>
 
                 {/* Diapositives */}
@@ -60,7 +77,7 @@ function Parcours() {
                     <div className="text-container">
                         <h2 data-swiper-parallax-y="-50%">Et des dinos</h2>
                         <p data-swiper-parallax-y="-150%">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore quia perferendis perspiciatis at pariatur magni officia ipsa, ab sint, illum tenetur vel explicabo accusamus voluptatum doloribus deserunt sunt minima? Qui.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequuntur adipisci facere in excepturi, dolorum natus magnam ullam consectetur placeat minima aut nulla aperiam est et labore numquam repudiandae ex!
                         </p>
     </div>
                     </SwiperSlide>
