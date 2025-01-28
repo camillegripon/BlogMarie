@@ -1,5 +1,4 @@
 import { useMediaQuery } from "react-responsive";
-import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/pagination';
