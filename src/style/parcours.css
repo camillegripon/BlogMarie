@@ -9,7 +9,7 @@
 
 
 .parallax-bg {
-    background-image: url("/assets/image/fond.png");
+    background-image: url("/assets/image/fond.webp");
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -22,7 +22,7 @@
 }
 
 .parallax-dino {
-    background-image: url("/assets/image/dino.png");
+    background-image: url("/assets/image/dino.webp");
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -36,7 +36,7 @@
 }
 
 .parallax-mount {
-    background-image: url("/assets/image/montagne.png");
+    background-image: url("/assets/image/montagne.webp");
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -51,7 +51,7 @@
 
 
 .parallax-tree {
-    background-image: url("/assets/image/arbre.png");
+    background-image: url("/assets/image/arbre.webp");
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -94,5 +94,17 @@ height: 100%;
     .parallax-tree,
     .parallax-dino {
         background-size: cover;
+    }
+    .parallax-bg{
+        background-image: url("/assets/image/minifond.webp");
+    }
+    .parallax-dino{
+        background-image: url("/assets/image/minidino.webp");
+    }
+    .parallax-mount{
+        background-image: url("/assets/image/minimontagne.webp");
+    }
+    .parallax-tree{
+        background-image: url("/assets/image/miniarbre.webp");
     }
 }
