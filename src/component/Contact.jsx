@@ -69,7 +69,7 @@ const Contact = () => {
                 </div>)}
             {choice === "instagram" && (
                 <div className="choiceInstagram">
-                    <p>Contacter Marie via instagram</p>
+                    <p><a href="https://www.instagram.com/callim_jo/">Contacter Marie via instagram</a></p>
                 </div>)}
         </div>
     );
